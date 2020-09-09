@@ -4,7 +4,7 @@ metadata:
   name: multisub-b
   namespace: multisub
   labels:
-    multisub: True
+    multisub: 'true'
   annotations:
     apps.open-cluster-management.io/git-path: multisub-b
     apps.open-cluster-management.io/git-branch: master

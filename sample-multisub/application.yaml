@@ -10,4 +10,4 @@ spec:
   descriptor: {}
   selector:
     matchLabels:
-      multisub: True
+      multisub: 'true'
