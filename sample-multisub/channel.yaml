@@ -1,0 +1,8 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: Channel
+metadata:
+  name: multisub
+  namespace: multisub-ch
+spec:
+  pathname: 'https://github.com/KevinFCormier/app-samples.git'
+  type: Git

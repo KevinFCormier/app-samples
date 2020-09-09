@@ -1,0 +1,9 @@
+resources:
+- namespace.yaml
+- namespace-ch.yaml
+- channel.yaml
+- placementrule.yaml
+- subscription-a.yaml
+- subscription-b.yaml
+- subscription-c.yaml
+- application.yaml
