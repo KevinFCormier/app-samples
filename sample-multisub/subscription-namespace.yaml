@@ -1,0 +1,21 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: Subscription
+metadata:
+  name: multisub-namespace
+  namespace: multisub
+  labels:
+    multisub: 'true'
+
+spec:
+  channel: multisub-namespace-ch/multisub-namespace
+  placement:
+    placementRef:
+      name: towhichcluster
+      kind: PlacementRule
+  timewindow:
+    windowtype: "active"
+    location: "America/Toronto"
+    weekdays: ["Monday","Tuesday","Wednesday"]
+    hours:
+      - start: "08:00AM"
+        end: "12:00PM"

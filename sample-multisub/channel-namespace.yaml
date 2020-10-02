@@ -1,0 +1,8 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: Channel
+metadata:
+  name: multisub-namespace
+  namespace: multisub-namespace-ch
+spec:
+  pathname: multisub-namespace-ch
+  type: namespace

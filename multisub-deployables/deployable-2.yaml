@@ -1,0 +1,14 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: Deployable
+metadata:
+  name: deployable-2
+  namespace: multisub-namespace-ch
+spec:
+  template:
+    apiVersion: v1
+    kind: Secret
+    metadata:
+      name: secret-2
+      namespace: secrets-a
+    stringData:
+      value: Confidential

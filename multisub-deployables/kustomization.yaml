@@ -1,0 +1,4 @@
+resources:
+- deployable-1.yaml
+- deployable-2.yaml
+
