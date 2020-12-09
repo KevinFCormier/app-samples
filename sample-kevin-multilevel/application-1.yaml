@@ -1,0 +1,15 @@
+apiVersion: app.k8s.io/v1beta1
+kind: Application
+metadata:
+  name: kevin-parent-1
+  namespace: kevin-multilevel-app
+spec:
+  componentKinds:
+    - group: apps.open-cluster-management.io
+      kind: Subscription
+  selector:
+    matchExpressions:
+      - key: app
+        operator: In
+        values:
+          - kevin-multilevel-app
