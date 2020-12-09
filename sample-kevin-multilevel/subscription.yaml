@@ -11,6 +11,7 @@ metadata:
 spec:
   channel: kevin-multilevel-channel/kevin-multilevel-channel
   placement:
+    placementRef:
       name: kevin-multilevel-app-placement
       kind: PlacementRule
       group: apps.open-cluster-management.io
