@@ -1,0 +1,7 @@
+resources:
+- app-namespace.yaml
+- channel-namespace.yaml
+- channel.yaml
+- placement.yaml
+- subscription.yaml
+- application.yaml

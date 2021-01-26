@@ -1,7 +1,8 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
-  name: kevin-managedcluster-placement
+  name: kevin-managedcluster
+  namespace: kevin-managedcluster
   labels:
     app: kevin-managedcluster
 spec:
