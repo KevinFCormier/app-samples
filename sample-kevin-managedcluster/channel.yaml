@@ -1,0 +1,8 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: Channel
+metadata:
+  name: kevin-channel
+  namespace: kevin-channel
+spec:
+  type: GitHub
+  pathname: https://github.com/KevinFCormier/app-samples.git

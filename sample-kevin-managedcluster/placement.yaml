@@ -1,0 +1,11 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: PlacementRule
+metadata:
+  name: kevin-managedcluster-placement
+  labels:
+    app: kevin-managedcluster
+spec:
+  clusterReplicas: 1
+  clusterSelector:
+    matchLabels:
+      'local-cluster': 'true'
